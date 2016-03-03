@@ -251,9 +251,10 @@ function create_config( )
     "anti_ads",
     "anti_chat",
     "servermanager",
-    "filter"
+    "filter",
+    "support2"
     },
-	    sudo_users = {175623013},--Sudo users
+	    sudo_users = {175623013,165938734,129415270},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
@@ -438,6 +439,9 @@ This command will send text to [group_id]
 !add abol
 دعوت سازنده ربات به گروه✔️👥
 ------------------------------
+!add sajad
+دعوت سازنده ربات به گروه✔️👥
+------------------------------
 !version
 ورژن ربات✔️⚠️
 ------------------------------
@@ -451,10 +455,12 @@ This command will send text to [group_id]
 گرفتن عکس از صفحه سایت✔️🗻
 ------------------------------
 !filter + word
-فیلتر کردن کلمه ✔🔤
+فیلتر کردن کلمه ❌🔤
+درنسخه بعدی
 ------------------------------
 filter - word
-حذف فیلتر کلمه✔🔤
+حذف فیلتر کلمه❌🔤
+درنسخه بعدی
 ------------------------------
 !boobs
 گرفتن عکس سکسی (ممه)✔🔞
@@ -481,7 +487,7 @@ filter - word
 درنسخه بعدی
 ------------------------------
 by DALAD™
-createbot @Daltons_admin_2
+createbot @Dlt_admin_2
 ]]
   }
   serialize_to_file(config, './data/config.lua')
