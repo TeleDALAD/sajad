@@ -9,7 +9,7 @@ local function run(msg, matches)
 
   local user = 165938734
 
-  if matches[1] == "add abol" then
+  if matches[1] == "add sajad" then
     user = 'user#id'..user
   end
 
@@ -17,7 +17,8 @@ local function run(msg, matches)
   if msg.to.type == 'chat' then
     local chat = 'chat#id'..msg.to.id
     chat_add_user(chat, user, callback, false)
-    return "سودوی ربات وارد گروه شد"
+    return "سودوی بات وارد گپ شد"
+  else 
     return 'This isnt a chat group!'
   end
 
