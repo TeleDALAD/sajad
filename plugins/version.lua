@@ -1,11 +1,13 @@
 do
 
 function run(msg, matches)
-  return 'Mr.DALAD v2.5'.. VERSION .. [[
-Mr.DALAD v2.5
-Channal: @iran_DALAD
-sudo: @Daltons_Admin_2
-برای خرید گروه به سودو مراجعه کنید
+  return 'Cj7 v2'.. VERSION .. [[
+Cj7 v2
+Channal: @xXTele_Cj7Xx
+sudo: @Dlt_Admin_2
+sudo: @sajjad0011jdjjsjjsjj
+sudo: @saji_daltons
+برای خرید گروه به سودوها مراجعه کنید
 اخرین اخبار ربات در کانال ما
 ]]
 end
